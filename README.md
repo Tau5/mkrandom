@@ -1,6 +1,7 @@
 # Mkrandom
 
-Mkrandom is a vita homebrew to randomize mario kart races, it randomizes the rules of the game (e.g. objects, speed, etc.)
+Mkrandom is vita homebrew to randomize mario kart races, it randomizes the rules of the game (e.g. objects, speed, etc.)
+It is a companion app for a mario kart game
 
 ## Extended permissions required
 
