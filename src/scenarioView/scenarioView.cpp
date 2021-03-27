@@ -3,7 +3,6 @@
 #include <imgui_vita2d/imgui_vita.h>
 #include <vita2d.h>
 #include <stdio.h>
-#include "imgui_stdlib.h"
 #include "sqlite3.h"
 
 #include "scenarioView.hpp"

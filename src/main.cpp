@@ -17,7 +17,6 @@
 #include "msg.hpp"
 #include "sqlite3.h"
 #include "db.hpp"
-#include "debugScreen.h"
 #include "ime_dialog.h"
 #include "math.h"
 #include <psp2/system_param.h> 
@@ -102,7 +101,6 @@ int main(int argc, char *argv[]) {
 		context.ui_locale = ui_locales[context.lang];
 	}
 	
-	psvDebugScreenInit();
 	sqlite3_config(SQLITE_CONFIG_LOG, errorLogCallback);
 	sqlite3_os_init();
 	//sqlite3_initialize();

@@ -42,8 +42,6 @@ set(VITA_MKSFOEX_FLAGS "${VITA_MKSFOEX_FLAGS} -d PARENTAL_LEVEL=1")
 include_directories(
 	src
 	sqlite-3.6.23.1
-	imgui_stdlib
-	debugScreen
 )
 	
 # Add any additional library paths here
@@ -64,11 +62,9 @@ add_executable(${PROJECT_NAME}
 	src/mainView/mainView.cpp
 	src/viewFactory.cpp
 	src/main.cpp
-	imgui_stdlib/imgui_stdlib.cpp
 	src/sqlite3.c
 	src/db.cpp
 	src/ime_dialog.cpp
-	debugScreen/debugScreen.c
 	sqlite-3.6.23.1/sqlite3.c
 	src/uiLocale.cpp
 )
